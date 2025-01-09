@@ -118,6 +118,7 @@ body {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    background-color: #8989897b;
     border: 1px solid #000;
     display: flex;
     align-items: center;
@@ -462,20 +463,20 @@ body {
 }
 
 .phase {
-    background-color: #fff;
+    background-color: #111222;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 280px;
     padding: 20px;
     text-align: center;
     transition: transform 0.3s ease, background-color 0.3s ease;
-    color: #787878;
+    color: #fff;
 }
 
 .phase:hover {
     transform: translateY(-10px);
     background-color: gold;
-    color: #fff;
+    color: #111222;
     font-weight: bold;
 }
 
@@ -794,7 +795,14 @@ body {
 }
 
 .faq-section .accordion summary:hover {
-    color: rgba(255, 217, 0, 0.5);
+    color: #fff;
+    text-shadow:
+        0 0 5px gold,
+        0 0 10px gold,
+        0 0 20px gold,
+        0 0 30px orange,
+        0 0 40px orange,
+        0 0 50px red;
 }
 
 .faq-section .accordion summary::after {

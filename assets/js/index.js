@@ -24,7 +24,8 @@ overlayNavbar.addEventListener('click', () => {
 
 sidebarLinks.forEach(link => {
     link.addEventListener('click', () => {
-        closeSidebar();
+        sidebar.style.bottom = '-150%';
+        overlayNavbar.style.display = 'none';
     });
 });
 

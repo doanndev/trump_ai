@@ -1,0 +1,116 @@
+@media (max-width: 768px) {
+
+    .home-container h1 {
+        width: 80%;
+        font-size: 1.2rem;
+    }
+
+    .home-container p {
+        width: 80%;
+        font-size: .9rem;
+    }
+
+
+    .navbar {
+        justify-content: center;
+        gap: 5%;
+    }
+
+    .navbar .links {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+        font-size: 30px;
+        background: none;
+        border: none;
+        color: #000;
+        cursor: pointer;
+    }
+
+    .sidebar-links a {
+        text-align: center;
+    }
+
+    .about-section {
+        flex-direction: column;
+    }
+
+    .about-section .about-img {
+        width: 250px;
+        height: 250px;
+        margin-left: 0;
+    }
+
+    .about-section .about-content h1 {
+        display: none;
+    }
+
+    .about-section .about-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .about-section .about-content p {
+        letter-spacing: 1px;
+        line-height: 1.2rem;
+        width: 100%;
+        text-align: justify;
+        text-transform: none;
+    }
+
+    .howtobuy-section {
+        padding: 50px 0;
+    }
+
+    .howtobuy-section .howtobuy-title h1 {
+        font-size: 1.2rem;
+    }
+
+    .howtobuy-section .cards-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .howtobuy-section .card {
+        margin-bottom: 20px;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .howtobuy-section .title {
+        font-size: 1rem;
+    }
+
+    .howtobuy-section .description {
+        font-size: .7rem;
+    }
+
+    .phases {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .phase {
+        width: 100%;
+    }
+
+    .tokenomics-section .tokenomics-liquid .tokenomics-img {
+        width: 250px;
+        height: 250px;
+    }
+    .partner-section .partner-content {
+        grid-template-columns: 1fr;
+    }
+    .partner-section .partner-title {
+        font-size: .8rem;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+}

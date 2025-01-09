@@ -1,0 +1,68 @@
+@media (max-width:1024px) {
+
+    .navbar .links {
+        gap: 20px;
+        font-size: 1rem;
+    }
+    
+    .home-container h1 {
+        font-size: 2rem;
+    }
+
+    .howtobuy-section{
+        height: auto;
+    }
+
+    .howtobuy-section .card-section {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 25px;
+    }
+
+    .howtobuy-section .card-section .card {
+        width: 80%;
+    }
+
+    .roadmap-section .roadmap-content {
+        width: 80%;
+    }
+
+    .tokenomics-section .tokenomics-content {
+        flex-direction: column;
+    }
+
+    .tokenomics-section .tokenomics-title {
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .tokenomics-section .tokenomics-title p {
+        width: 80%;
+    }
+
+    .tokenomics-section .tokenomics-title h1 {
+        font-size: 1.3rem;
+    }
+
+    .partner-section .partner-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .faq-section .faq-title h1 {
+        font-size: 1.3rem;
+    }
+    .faq-section .accordion summary {
+        font-size: .9rem;
+    }
+
+    .faq-section .accordion details>p {
+        font-size: .8rem;
+    }
+    .faq-section .accordion p {
+        font-size: .8rem;
+    }
+}
